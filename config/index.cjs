@@ -25,13 +25,16 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'dMYOIGsgQO0yXpli5vtyvf_MFFzuvpNQlG7_zUNhlaE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '11-24-27',
+      horoscopeDate: '11-24',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '猫猫', year: '1994', date: '11-24',
-        },
+//         {
+//           type: '*生日', name: '猫猫', year: '1994', date: '11-24',
+//         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '猫猫', year: '1994', date: '11-24',
+        },
         {
           type: '生日', name: '小羊', year: '1998', date: '03-30',
         },
